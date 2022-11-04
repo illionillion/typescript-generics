@@ -10,14 +10,17 @@ console.log(test("world"));
 
 type student<T> = {
     code: T
+    name: string
 }
 
 const student1: student<number> = {
-    code: 1
+    code: 1,
+    name: "Yamada"
 }
 
 const student2: student<string> = {
-    code: "001"
+    code: "001",
+    name: "Okita"
 }
 
 console.log(student1);
